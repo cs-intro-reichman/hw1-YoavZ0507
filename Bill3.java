@@ -6,9 +6,10 @@ public class Bill3 {
 		 String b= args[1];
 		 String c= args[2];
 	 
-		 int d= Integer.parseInt(args[3]);
-		 int ans= d/3;
-		 System.out.println("Dear "+c+", "+ b+ ", and "+name1+": pay "+ans+ " Shekels each ");
+		 double d= Double.parseDouble(args[3]);
+		 double ans= d/3;
+		 double ans1= Math.ceil(ans);
+		 System.out.println("Dear "+c+", "+ b+ ", and "+name1+": pay "+ans1+ " Shekels each ");
 	 
 	   
 	    
