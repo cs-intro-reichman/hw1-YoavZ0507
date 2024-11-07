@@ -8,7 +8,7 @@ public class Bill3 {
 	 
 		 int d= Integer.parseInt(args[3]);
 		 int ans= d/3;
-		 System.out.println("Dear "+c+", git "+ b+ ", and "+name1+": pay "+(double)ans+ " Shekels each ");
+		 System.out.println("Dear "+c+", "+ b+ ", and "+name1+": pay "+ans+ " Shekels each ");
 	 
 	   
 	    
