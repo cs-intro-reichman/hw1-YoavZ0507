@@ -4,8 +4,8 @@ public class NumWords {
 	int a = Integer.parseInt(args[0]);
 
 	int units= a%10;
-	int tens= ((a%100)-units)/10;
-	int hun= ((a%1000)-units-tens)/100;
+	int tens= ((a/10)%10);
+	int hun= ((a/100)%10);
 
 	System.out.println ( hun + " hundreds, " + tens + " tens, and "+ units+ " ones.");
 	}
