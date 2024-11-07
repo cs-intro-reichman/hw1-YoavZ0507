@@ -9,7 +9,7 @@ public class FVCalc {
 	  double ans2= a*ans1;
 
 
-	  System.out.println("After "+ c+ " years, $"+ a+ " saved at "+ b+ "% will yield $" + (int)ans2 );
+	  System.out.println("After "+ c+ " years, a $"+ a+ " saved at "+ b+ "% will yield $" + (int)ans2 );
 
 
 
